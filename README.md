@@ -5,7 +5,7 @@ This is a sample Rails 4.0 application that shows how to use
 Date](https://github.com/ankane/groupdate) and [Google
 charts](https://developers.google.com/chart/) in a simple way.
 
-![Screenshot](https://www.evernote.com/shard/s1/sh/72a21553-61a2-4434-94ee-3b6b23f06a40/b9a2418b02097ba51e482f3a42e06954/res/4b57e973-51cc-41c2-b219-772abfc6b229/skitch.png?resizeSmall&width=832)
+![Screenshot](https://raw.github.com/mariochavez/graph_sample/master/screenshot.png)
 
 ## Ruby and Rails version
 This app was devloped using Ruby 2.0 and Ruby on Rails 4.0, it also depends on
