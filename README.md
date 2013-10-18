@@ -23,7 +23,7 @@ To run the sample app just execute the following commands:
 Point your browser to `http://127.0.0.1:3000` and click on the menu to display
 the graph.
 
-## Additiona notes
+## Additional notes
 If you want to try it with Mysql, change the `Gemfile` to remove `pg` gem and
 add `mysql2` gem also modify your `config/database.yml` to reflect setting for
 your Mysql database.
