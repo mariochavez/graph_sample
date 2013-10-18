@@ -33,7 +33,7 @@ you can do it runnign the following command:
 
     $ mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
 
-Asumming that time zone infor is available at `/user/share/zoneinfo`.
+Asumming that time zone info is available at `/user/share/zoneinfo`.
 
 ## License
 Copyright © 2013 Mario A Chavez. It is free software, and may be redistributed
