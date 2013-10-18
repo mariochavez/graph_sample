@@ -1,0 +1,10 @@
+<h1>Sales Graph</h1>
+
+<ul>
+  <li><%= link_to 'By Month', root_path({type: :month}), remote: true %></li>
+  <li><%= link_to 'By Week', root_path({type: :week}), remote: true %></li>
+  <li><%= link_to 'By Day', root_path({type: :day}), remote: true %></li>
+</ul>
+
+<%= render partial: 'graph', locals: {data: @data} %>
+
