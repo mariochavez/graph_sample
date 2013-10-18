@@ -12,6 +12,7 @@ class DashboardController < ApplicationController
              end
 
     @data = [{ name: "Sales by #{graph_type}", data: sales_amounts }]
+    Rails.logger.info @data
     respond_with @data
   end
 end

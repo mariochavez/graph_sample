@@ -5,11 +5,15 @@ class Sale < ActiveRecord::Base
     end
 
     def by_day_totals
-      group_by_day(:created_at).sum(:total)
+      where('created_at >= ?', Time.now.beginning_of_day)
+      .where('created_at <= ?', Time.now.end_of_day)
+      .group_by_minute(:created_at).sum(:total)
     end
 
     def by_week_totals
-      group_by_week(:created_at).sum(:total)
+      where('created_at >= ?', Time.now.beginning_of_month)
+      .where('created_at <= ?', Time.now.end_of_month)
+      .group_by_week(:created_at).sum(:total)
     end
   end
 end
